@@ -1,5 +1,6 @@
 // cli
 // az deployment sub create --template-file Infra/main.bicep --location centralus
+// az group delete --name rg-log-insights-prod
 
 // Scope
 targetScope = 'subscription'
