@@ -8,17 +8,17 @@ targetScope = 'subscription'
 var location = deployment().location
 
 // AppService variables
-var rgName = 'rg-log-insights'
-var appServiceName = 'as-log-insights'
-var appServicePlanName = 'asp-log-insights'
-var appServicePlanSku = 'F1'
+var rgName = 'rg-log-insights-prod'
+var appServiceName = 'apps-log-insights-prod'
+var appServicePlanName = 'appsp-log-insights-prod'
+var appServicePlanSku = 'B1'
 var appServiceRuntime = 'DOTNETCORE|5.0'
 
 // LogAnalyticsWorkspace variables
-var logAnalyticsWorkspaceName = 'laws-log-insights'
+var logAnalyticsWorkspaceName = 'logaws-log-insights-prod'
 
 // AppInsights variables
-var appInsightName = 'ai-log-insights'
+var appInsightName = 'appi-log-insights'
 
 resource rg 'Microsoft.Resources/resourceGroups@2020-10-01' = {
   location: location
