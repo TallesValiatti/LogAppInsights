@@ -13,7 +13,7 @@ var rgName = 'rg-log-insights-prod'
 var appServiceName = 'apps-log-insights-prod'
 var appServicePlanName = 'appsp-log-insights-prod'
 var appServicePlanSku = 'B1'
-var appServiceRuntime = 'DOTNETCORE|5.0'
+var appServiceRuntime = 'DOTNETCORE|6.0'
 
 // LogAnalyticsWorkspace variables
 var logAnalyticsWorkspaceName = 'logaws-log-insights-prod'
