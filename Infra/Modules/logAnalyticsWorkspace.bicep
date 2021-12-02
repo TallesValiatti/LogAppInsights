@@ -20,5 +20,3 @@ resource logAnalyticsWorkspace 'Microsoft.OperationalInsights/workspaces@2020-08
 }
 
 output logAnalyticsWorkspaceId string = logAnalyticsWorkspace.id
-output retorno1 string = 'retorno 1'
-output retorno2 string = 'retorno 2'
